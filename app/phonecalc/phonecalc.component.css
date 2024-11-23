@@ -1,0 +1,79 @@
+#phonecalc {
+  background-color: rgb(167, 201, 250);
+  padding: 45px;
+  border-radius: 10px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  width: 70%; 
+  margin: 0 auto; 
+  margin-bottom: 50px;
+}
+
+.task-condition {
+  color: #3319a8;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
+  background: rgba(255, 255, 255, 0.2); 
+  background: linear-gradient(45deg, rgba(254, 192, 192, 0.74), rgba(179, 250, 196, 0.717)); 
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.calculator-container {
+  display: flex;
+  justify-content: space-between; 
+  gap: 15px; 
+  margin-top: 20px;
+}
+
+.frame {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 45%; 
+}
+
+h1 {
+  font-size: 28px; 
+  text-align: center;
+  color: #3319a8;
+  margin-bottom: 20px;
+}
+
+input[type="number"], input[type="text"] {
+  width: 80%; 
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background: linear-gradient(45deg,#3e71cb, #3290a8); 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s, box-shadow 0.3s; 
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+button:hover {
+  background: linear-gradient(45deg, #3e59e3, #492dc5); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+} 
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
